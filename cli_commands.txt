@@ -1,0 +1,15 @@
+run nohup:
+nohup papermill Assignment_5_DeepLearning.ipynb output_Assignment_5.ipynb > thelog.log 2>&1 &
+
+check progress:
+tail -f thelog.log
+
+view tasks:
+ps aux | grep python
+
+kill task:
+kill 1234
+kill -9 1234
+
+cleanup:
+rm thelog.log
