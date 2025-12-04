@@ -1,5 +1,6 @@
 run nohup:
-nohup papermill Assignment_5_DeepLearning.ipynb output_Assignment_5.ipynb > thelog.log 2>&1 &
+nohup papermill 220205-assignment5-notebook.ipynb output.ipynb > papermill.log 2>&1 &
+
 
 check progress:
 tail -f thelog.log
