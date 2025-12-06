@@ -1,5 +1,7 @@
 run nohup:
 nohup papermill 220205-assignment5-notebook.ipynb output.ipynb > papermill.log 2>&1 &
+nohup papermill 220205-assignment5-notebook-densenet-gpu.ipynb 220205-assignment5-notebook-densenet-gpu-output.ipynb > output.log 2>&1 &
+
 
 
 check progress:
