@@ -1,6 +1,6 @@
 run nohup:
-nohup papermill 220205-assignment5-notebook.ipynb output.ipynb > papermill.log 2>&1 &
-nohup papermill 220205-assignment5-notebook-final.ipynb 220205-assignment5-notebook-final-output.ipynb > output.log 2>&1 &
+nohup papermill 220205-assignment5-notebook-final1.ipynb 220205-assignment5-notebook-final1-output.ipynb > output1.log 2>&1 &
+nohup papermill 220205-assignment5-notebook-final2.ipynb 220205-assignment5-notebook-final2-output.ipynb > output2.log 2>&1 &
 
 
 
