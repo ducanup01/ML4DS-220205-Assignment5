@@ -1,0 +1,3 @@
+run nohup:
+nohup papermill 220205-assignment5-notebook.ipynb 220205-assignment5-notebook-output.ipynb > output1.log 2>&1 &
+nohup papermill 220205-assignment5-notebook2.ipynb 220205-assignment5-notebook2-output.ipynb > output2.log 2>&1 &
